@@ -7,7 +7,7 @@ function App() {
     return (
         <BrowserRouter>
             <div className={"loader"}>
-                {/*<Route path='/' component={() => { window.location = 'https://mnogomebeli.com/'; return null;} }/>*/}
+                <Route path='/' component={() => { window.location = 'https://mnogomebeli.com/'; return null;} }/>
                 <div className="lds-ring">
                     <div></div>
                     <div></div>
